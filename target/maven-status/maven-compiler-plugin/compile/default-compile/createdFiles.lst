@@ -1,0 +1,4 @@
+com\example\multiauthspring\SecurityConfig.class
+com\example\multiauthspring\AuthController.class
+com\example\multiauthspring\CustomAuthProvider.class
+com\example\multiauthspring\MultiAuthSpringApplication.class

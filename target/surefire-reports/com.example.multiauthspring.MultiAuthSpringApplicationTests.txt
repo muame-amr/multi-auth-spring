@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.example.multiauthspring.MultiAuthSpringApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.524 s <<< FAILURE! - in com.example.multiauthspring.MultiAuthSpringApplicationTests
+givenExternalUsers_whenGetPingWithValidUser_thenOK  Time elapsed: 0.523 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 200
+ but was: 404
+	at com.example.multiauthspring.MultiAuthSpringApplicationTests.givenExternalUsers_whenGetPingWithValidUser_thenOK(MultiAuthSpringApplicationTests.java:33)
+
+givenMemUsers_whenGetPingWithValidUser_thenOk  Time elapsed: 0.089 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: 200
+ but was: 404
+	at com.example.multiauthspring.MultiAuthSpringApplicationTests.givenMemUsers_whenGetPingWithValidUser_thenOk(MultiAuthSpringApplicationTests.java:25)
+
